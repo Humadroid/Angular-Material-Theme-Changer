@@ -1,6 +1,6 @@
 import { Component, VERSION, OnInit } from '@angular/core';
 import { OverlayContainer } from '@angular/cdk/overlay';
-import { ThemeStorage, DocsSiteTheme } from 'src/services/theme-storage.service';
+import { ThemeStorage, DocsSiteTheme } from '../services/theme-storage.service';
 
 @Component({
   selector: 'app-root',

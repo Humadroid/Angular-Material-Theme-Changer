@@ -45,12 +45,8 @@ import {
   MatTooltipModule,
 } from '@angular/material';
 import { AppComponent } from './app.component';
-import { ThemeStorage } from 'src/services/theme-storage.service';
+import { ThemeStorage } from '../services/theme-storage.service';
 
-/**
- * NgModule that includes all Material modules that are required to serve
- * the Plunker.
- */
 @NgModule({
   exports: [
     // CDK
